@@ -1,0 +1,4 @@
+build:
+  docker:
+    apache-php: php/Dockerfile
+    mysql: sql/Dockerfile

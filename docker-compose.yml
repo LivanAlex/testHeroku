@@ -3,7 +3,7 @@ services:
   apache-php:
     build:
       context: docker-compose
-      dockerfile: php/Dockerfile
+      dockerfile: src/Dockerfile
 #    volumes:
 #    - ./src:/var/www/html
     ports:

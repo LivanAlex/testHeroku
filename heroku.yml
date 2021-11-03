@@ -1,4 +1,4 @@
 build:
   docker:
-    apache-php: php/Dockerfile
+    apache-php: src/Dockerfile
     mysql: sql/Dockerfile

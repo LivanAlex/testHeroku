@@ -1,4 +1,4 @@
 build:
   docker:
     web: src/Dockerfile
-    mysql: sql/Dockerfile
+#    mysql: sql/Dockerfile

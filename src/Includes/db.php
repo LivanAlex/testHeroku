@@ -7,10 +7,14 @@ class WishDB extends mysqli
     private static $instance = null;
 
     // db connection config vars
-    private $user = "phpuser";
-    private $pass = "password";
-    private $dbName = "wishlist";
-    private $dbHost = "mysql";
+//    private $user = "phpuser";
+//    private $pass = "password";
+//    private $dbName = "wishlist";
+//    private $dbHost = "mysql";
+    private $user = "sql11448903";
+    private $pass = "sCy3l1NXtY";
+    private $dbName = "sql11448903";
+    private $dbHost = "sql11.freemysqlhosting.net";
 
     // private constructor
     private function __construct() {

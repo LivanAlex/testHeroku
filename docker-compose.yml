@@ -2,23 +2,24 @@ version: '3'
 services:
   apache-php:
     build:
-      context: docker-compose
+      context: .
       dockerfile: src/Dockerfile
 #    volumes:
-#    - ./src:/var/www/html
+#    - ./:/var/www/html
     ports:
     - "80:80"
-    depends_on:
-      - mysql
-    links:
-      - mysql
 
-  mysql:
-    build:
-      context: docker-compose
-      dockerfile: sql/Dockerfile
-    ports:
-    - "3306:3306"
+#    depends_on:
+#      - mysql
+#    links:
+#      - mysql
+#
+#  mysql:
+#    build:
+#      context: docker-compose
+#      dockerfile: sql/Dockerfile
+#    ports:
+#    - "3306:3306"
 
 #    image: mysql:5.7
 #    volumes:

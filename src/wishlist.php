@@ -3,6 +3,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title></title>
+        <link href="wishlist.css" type="text/css" rel="stylesheet" media="all" />
     </head>
     <body>
         Wish List of <?php echo htmlentities($_GET["user"])."<br/>"; ?>
